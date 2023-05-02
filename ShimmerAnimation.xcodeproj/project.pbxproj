@@ -11,6 +11,9 @@
 		EBC780B72A018CE200A3F141 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC780B62A018CE200A3F141 /* ContentView.swift */; };
 		EBC780B92A018CEC00A3F141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBC780B82A018CEC00A3F141 /* Assets.xcassets */; };
 		EBC780BC2A018CEC00A3F141 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBC780BB2A018CEC00A3F141 /* Preview Assets.xcassets */; };
+		EBFD49082A01988E00FA40CA /* ShimmerConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFD49072A01988E00FA40CA /* ShimmerConfigure.swift */; };
+		EBFD490A2A0198D200FA40CA /* View + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFD49092A0198D200FA40CA /* View + Ext.swift */; };
+		EBFD490C2A0198F500FA40CA /* ShimmerEffectHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFD490B2A0198F500FA40CA /* ShimmerEffectHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		EBC780B62A018CE200A3F141 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EBC780B82A018CEC00A3F141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBC780BB2A018CEC00A3F141 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EBFD49072A01988E00FA40CA /* ShimmerConfigure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerConfigure.swift; sourceTree = "<group>"; };
+		EBFD49092A0198D200FA40CA /* View + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Ext.swift"; sourceTree = "<group>"; };
+		EBFD490B2A0198F500FA40CA /* ShimmerEffectHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerEffectHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,7 @@
 		EBC780B32A018CE200A3F141 /* ShimmerAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				EBFD49062A01945900FA40CA /* ShimmerEffectHelper */,
 				EBC780B42A018CE200A3F141 /* ShimmerAnimationApp.swift */,
 				EBC780B62A018CE200A3F141 /* ContentView.swift */,
 				EBC780B82A018CEC00A3F141 /* Assets.xcassets */,
@@ -65,6 +72,16 @@
 				EBC780BB2A018CEC00A3F141 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBFD49062A01945900FA40CA /* ShimmerEffectHelper */ = {
+			isa = PBXGroup;
+			children = (
+				EBFD49072A01988E00FA40CA /* ShimmerConfigure.swift */,
+				EBFD49092A0198D200FA40CA /* View + Ext.swift */,
+				EBFD490B2A0198F500FA40CA /* ShimmerEffectHelper.swift */,
+			);
+			path = ShimmerEffectHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +156,9 @@
 			files = (
 				EBC780B72A018CE200A3F141 /* ContentView.swift in Sources */,
 				EBC780B52A018CE200A3F141 /* ShimmerAnimationApp.swift in Sources */,
+				EBFD490A2A0198D200FA40CA /* View + Ext.swift in Sources */,
+				EBFD490C2A0198F500FA40CA /* ShimmerEffectHelper.swift in Sources */,
+				EBFD49082A01988E00FA40CA /* ShimmerConfigure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
