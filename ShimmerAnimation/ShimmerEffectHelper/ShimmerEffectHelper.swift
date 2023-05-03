@@ -29,7 +29,7 @@ struct ShimmerEffectHelper: ViewModifier {
                                 .mask {
                                     Rectangle()
                                         .fill(
-                                            .linearGradient(colors: [.white.opacity(0), configure.highlight.opacity(configure.highlightOpacity), .white.opacity(0)], startPoint: .top, endPoint: .bottom)
+                                            .linearGradient(colors: [.white.opacity(0), configure.highlight.opacity(configure.highlightOpacity), .white.opacity(1)], startPoint: .top, endPoint: .bottom)
                                         )
                                         .blur(radius: configure.blur)
                                         .rotationEffect(.init(degrees: -70))

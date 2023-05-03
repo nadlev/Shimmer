@@ -5,6 +5,7 @@
 //  Created by Надежда Левицкая on 5/2/23.
 //
 
+import SwiftUI
 
 struct ContentView: View {
     var body: some View {
@@ -13,6 +14,12 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
+                .shimmer(.init(tint: .white.opacity(0.4), highlight: .white, blur: 5))
+                .padding()
+                .background {
+                    RoundedRectangle(cornerRadius: 15, style: .circular)
+                        .fill(.blue.gradient)
+                }
         }
         .padding()
     }
